@@ -92,8 +92,6 @@ Success.*<br/><br/>
 <br/>
 <br/>
 
-<br/>
-
 ## 4. Creating a Virtual Host for your Website using Apache 
 <br/>
 
@@ -127,8 +125,8 @@ Site 000-default disabled.
 To activate the new configuration, you need to run:  
   systemctl reload apache2*
 
->*`To check for syntax error:`  
-ubuntu@ip-172-31-1-200:~$ sudo apache2ctl configtest
+>`To check for syntax error:`  
+*ubuntu@ip-172-31-1-200:~$ sudo apache2ctl configtest
 Syntax OK  
 ubuntu@ip-172-31-1-200:~$ sudo systemctl reload apache2*
 
@@ -145,6 +143,7 @@ Hello LAMP from hostname ec2-34-215-73-24.us-west-2.compute.amazonaws.com with p
 ![Apache2 my lamp server - PublicIP](https://user-images.githubusercontent.com/70076627/114529582-00324080-9c42-11eb-95c3-bddef2535826.PNG)<br/>
 <br/>
 <br/>
+
 ![Apache2 my lamp server - dnsserver name](https://user-images.githubusercontent.com/70076627/114530036-7b93f200-9c42-11eb-8c13-21dec43e767e.PNG)<br/>
 <br/>
 
@@ -171,7 +170,8 @@ phpinfo();
 </br>
 
 >**I refreshed the http site and got the page below:** 
-<br/>                
+<br/> 
+
 ![Apache2 my lamp server - PHP](https://user-images.githubusercontent.com/70076627/114531587-f1e52400-9c43-11eb-8422-79cbf5053c14.PNG)
 
 > <br/>I brought down the page by removing the php file as it contained sensitive information.
