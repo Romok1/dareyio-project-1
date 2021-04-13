@@ -127,9 +127,9 @@ Site 000-default disabled.
 To activate the new configuration, you need to run:  
   systemctl reload apache2*
 
->*`To check for syntax error:`
+>*`To check for syntax error:`  
 ubuntu@ip-172-31-1-200:~$ sudo apache2ctl configtest
-Syntax OK
+Syntax OK  
 ubuntu@ip-172-31-1-200:~$ sudo systemctl reload apache2*
 
 > *`Creating index.html and testing the virtual host:`  
@@ -163,10 +163,14 @@ Hello LAMP from hostname ec2-34-215-73-24.us-west-2.compute.amazonaws.com with p
 
 > <br/>I pasted the below into it and saved.   
 <br/>
-*<?php*  
-*phpinfo();*
+```bash
+<?php 
+phpinfo();
+```
 
-> <br/>I refreshed the http site and got the page below: 
+</br>
+
+>**I refreshed the http site and got the page below:** 
 <br/>                
 ![Apache2 my lamp server - PHP](https://user-images.githubusercontent.com/70076627/114531587-f1e52400-9c43-11eb-8422-79cbf5053c14.PNG)
 
@@ -175,5 +179,9 @@ Hello LAMP from hostname ec2-34-215-73-24.us-west-2.compute.amazonaws.com with p
 *ubuntu@ip-172-31-1-200:~$ sudo rm /var/www/projectlamp/index.php*
 *ubuntu@ip-172-31-1-200:~$*
 
-#### `I must say, I gained a lot from this Project_1, on to the next!`
+<br/>
+
+#### `I must say, I gained a lot from this Project_1, on to the next!`  
+<br/>
+
 ~~Just playing around with the markdown language, fun!~~
