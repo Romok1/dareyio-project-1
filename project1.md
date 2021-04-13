@@ -162,9 +162,11 @@ Hello LAMP from hostname ec2-34-215-73-24.us-west-2.compute.amazonaws.com with p
 
 > <br/>I pasted the below into it and saved.   
 <br/>
-```bash
+
+```
 <?php 
 phpinfo();
+
 ```
 
 </br>
