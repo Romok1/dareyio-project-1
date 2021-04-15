@@ -59,7 +59,7 @@ See "systemctl status nginx.service" and "journalctl -xe" for details.
 > ubuntu@ip-172-31-1-200:~$ sudo netstat -plant | grep 80
 sudo: netstat: command not found
 
-> ubuntu@ip-172-31-1-200:~$ sudo apt install net-tools
+> ubuntu@ip-172-31-1-200:~$ sudo apt install net-tools  
 Reading package lists... Done
 
 > ubuntu@ip-172-31-1-200:~$ sudo netstat -plant | grep 80
