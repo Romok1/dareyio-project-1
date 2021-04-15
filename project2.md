@@ -5,7 +5,7 @@
 
 >Took the SQL tutorial, I learnt a lot about SQL syntax and commands.
 
->I connected to my AWS EC2 Instance for the first using Git Bash. I always used putty or secure crt.
+>I connected to my AWS EC2 Instance for the first time using Git Bash. I always used putty or secure crt.
 
 >I learnt how to install Nginx and PHP modules that are required for it.
 
