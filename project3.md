@@ -311,9 +311,10 @@ ubuntu@ip-172-31-11-117:~/Todo$ vi .env*
 
 > I filled with my details as below: 
 <br/>   
-*ubuntu@ip-172-31-11-117:~/Todo$ cat .env  
-`DB = 'mongodb+srv://romola:fxxmittly@cluster0.p4zlh.mongodb.net/romolaDB?retryWrites=true&w=majority'`*
+*ubuntu@ip-172-31-11-117:~/Todo$ cat .env*  <br/>     
+`DB = 'mongodb+srv://romola:fxxmittly@cluster0.p4zlh.mongodb.net/romolaDB?retryWrites=true&w=majority'`
 
+<br/>
 
 Now I need to update the index.js to reflect the use of .env so that Node.js can connect to the database.
 >*ubuntu@ip-172-31-11-117:~$ cd Todo/  
@@ -600,7 +601,7 @@ I added the port 3000 on the allowed ports under Inbound rules on the EC2 AWS in
  **To create the components:**  
 Note: client folder previously generated from npx command.  
 > *ubuntu@ip-172-31-11-117:~$ cd Todo/  
-ubuntu@ip-172-31-11-117:~/Todo$ cd client/  
+ubuntu@ip-172-31-11-117:~/Todo$ cd client/ <br/><br/> 
 ubuntu@ip-172-31-11-117:~/Todo/client$ ls -l  
 total 1552  
 -rw-rw-r--    1 ubuntu ubuntu    3369 Apr 19 09:12 README.md  
@@ -609,10 +610,10 @@ drwxrwxr-x 1066 ubuntu ubuntu   36864 Apr 19 13:03 node_modules
 -rw-rw-r--    1 ubuntu ubuntu     846 Apr 19 13:02 package.json  
 drwxrwxr-x    2 ubuntu ubuntu    4096 Apr 19 09:12 public  
 drwxrwxr-x    2 ubuntu ubuntu    4096 Apr 19 09:12 src <br/><br/>
-ubuntu@ip-172-31-11-117:~/Todo/client$ cd src/  
+ubuntu@ip-172-31-11-117:~/Todo/client$ cd src/<br/>  
 ubuntu@ip-172-31-11-117:~/Todo/client/src$   
 ubuntu@ip-172-31-11-117:~/Todo/client/src$ mkdir components  
-ubuntu@ip-172-31-11-117:~/Todo/client/src$ cd components/  
+ubuntu@ip-172-31-11-117:~/Todo/client/src$ cd components/<br/>  
 ubuntu@ip-172-31-11-117:~/Todo/client/src/components$ touch Input.js   ListTodo.js Todo.js*
 
 > *ubuntu@ip-172-31-11-117:~/Todo/client/src/components$ vi Input.js  
