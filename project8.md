@@ -134,6 +134,12 @@ I opened console to each web server and ran the below command to be able to see 
 
 ## Step 2: Optional Step - Configure Local DNS Names Resolution
 
+In the case where one is managing many servers, switching between IP addresses can be tedious. Domain name resolution (DNS) can be used to Map IP address to domain name as domain name is easier to remember than IP Addresses. In this step, a local domain name resolution will be configured `to illustrate how it works`, this method is not very scalable but easy to configure.
+
+<br/>
+
+- I opened the below file and added two (2) records in it. It shows IP Address mapping to an arbitrary name.
+
  > *ubuntu@ip-172-31-28-70:~$ sudo su  
 root@ip-172-31-28-70:/home/ubuntu# vi /etc/hosts  
 root@ip-172-31-28-70:/home/ubuntu# cat /etc/hosts*
@@ -190,7 +196,7 @@ root@ip-172-31-28-70:/home/ubuntu# systemctl restart apache2*
 
 <br/>
 
-- I then used curl to access my the web servers:
+- I then used curl to access the web servers:
 
 > *root@ip-172-31-28-70:/home/ubuntu# **curl http://Web1***
 
@@ -326,6 +332,7 @@ root@ip-172-31-28-70:/home/ubuntu# systemctl restart apache2*
 ...
 ...
 ```
+
 
 
 
