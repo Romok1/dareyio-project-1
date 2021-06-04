@@ -15,7 +15,7 @@ The /etc/hosts file for local DNS with Web Servers’ names ( Web1 and Web2) and
 
 <br/>
 
-`Steps:`
+`Steps followed:`
 
 - Remove Apache:
 
