@@ -29,7 +29,7 @@ OK
 > *root@ip-172-31-24-124:/home/ubuntu# apt update  
 root@ip-172-31-24-124:/home/ubuntu# apt-get install jenkins*
 
-- Check if Jenkins is up and running 
+- Check if Jenkins is up and running: 
 
 > *root@ip-172-31-24-124:/home/ubuntu#systemctl status jenkins 
 
