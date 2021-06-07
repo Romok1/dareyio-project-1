@@ -367,7 +367,8 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? 172.31.24.2
 **SOLUTIONS:**
 1. I ran the ssh-agent and ssh-add command again to keep the process running on the servers.
 
-**DRAWBACK:** The terminal I was using to access these servers must remain open, one it's closed or I exit the session/log out, the process is terminated and each host becomes unreachable again (PERMISSION DENIED). `NOT AS EFFECTIVE` 
+**DRAWBACK:** The terminal I was using to access these servers must remain open, once it's closed or I exit the session/log out, the process is terminated and each host becomes unreachable again (PERMISSION DENIED). `NOT AS EFFECTIVE` 
+
 NFS SERVER
 -------------
 > I did this part all over again for the target hosts:  
@@ -493,7 +494,7 @@ and check to make sure that only the key(s) you wanted were added.
 
 
 ---------------------`After the above setup, I could ping all the other hosts without needing to manually define key file or entering passwords.`
-
+```
 ubuntu@ip-172-31-24-124:~/ansible-config-mgt/inventory$ ansible lb -m ping
 172.31.28.70 | SUCCESS => {
     "ansible_facts": {
@@ -501,7 +502,7 @@ ubuntu@ip-172-31-24-124:~/ansible-config-mgt/inventory$ ansible lb -m ping
     },
     "changed": false,
     "ping": "pong"
-
+```
 
 <br/>
 
