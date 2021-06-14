@@ -451,5 +451,5 @@ http://35.161.215.43/index.php
 
 ![Webserver2 index homepage](https://user-images.githubusercontent.com/70076627/120937138-a743cd80-c703-11eb-9165-5835d1d8e928.PNG)
 
-`Glad to have learnt how to deploy and configure UAT Web Servers using Ansible imports and roles!. So much knowledge packed into one project. The outcome was like magic, great work.`
+`Glad to have learnt how to deploy and configure UAT Web Servers using Ansible imports and roles!. So much knowledge packed into one project.`
 
